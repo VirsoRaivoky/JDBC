@@ -18,7 +18,7 @@
             <TableColumn fx:id="col_uf" prefWidth="164.0" text="UF" />
         </columns>
       </TableView>
-      <Text layoutX="458.0" layoutY="44.0" scaleX="3.0" scaleY="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CúD de Cidades" textAlignment="CENTER" wrappingWidth="151.13671875" />
+      <Text layoutX="458.0" layoutY="44.0" scaleX="3.0" scaleY="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CUD de Cidades" textAlignment="CENTER" wrappingWidth="151.13671875" />
       <Button fx:id="bt_reg" layoutX="218.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="110.0" text="Registrar Cidade" textAlignment="CENTER" />
       <Button fx:id="bt_edit" layoutX="52.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="110.0" text="Editar Cidade" textAlignment="CENTER" />
       <TextField fx:id="tx_id" layoutX="85.0" layoutY="200.0" prefHeight="25.0" prefWidth="254.0" promptText="ID" />
