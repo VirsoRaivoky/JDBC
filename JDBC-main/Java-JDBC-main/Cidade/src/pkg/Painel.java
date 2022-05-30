@@ -106,6 +106,7 @@ public class Painel implements Initializable {
 	   }
    }
    public ObservableList<Cidade> getCidadeList(){
+	   ObservableList<Cidade> cidadeList = FXCollections.observableArrayList();
 	   Connection conn = getConnection();
 	   String query = "SELECT * FROM cidade";
 	   Statement st;
@@ -144,7 +145,7 @@ public class Painel implements Initializable {
    	private void atualizarCidade() {
 	   String query = "UPDATE cidade SET id = " + tx_id.getText() + ", nome = '" + tx_nome.getText() + "',cep = '" + tx_cep.getText() +"' ,uf = '" + tx_uf.getText() + "' WHERE id = " + tx_id.getText() + "";
 	   executeQuery(query);
-	   //showCidade();
+	   showCidade();
    }
 
 
